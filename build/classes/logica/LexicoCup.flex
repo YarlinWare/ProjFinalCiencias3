@@ -155,7 +155,7 @@ espacio=[ \t \r \n]+
 ( scanf ) {return new Symbol(sym.Scanf, yychar, yyline, yytext());}
 
 /* Palabra reservada D_puntos */
-( ":" ) {return new Symbol(sym.D_puntos, yychar, yyline, yytext
+( ":" ) {return new Symbol(sym.D_puntos, yychar, yyline, yytext());}
 
 /* Operador Igual */
 ( "=" ) {return new Symbol(sym.Igual, yychar, yyline, yytext());}
